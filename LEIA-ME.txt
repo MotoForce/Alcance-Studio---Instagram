@@ -1,0 +1,18 @@
+Alcance Studio 5.0 — Logomarca corrigida para Android
+
+USO IMEDIATO
+1. Para abrir no Android sem precisar das imagens externas, abra SOMENTE o index.html deste pacote.
+2. As duas marcas visuais e a marca aplicada às artes agora estão incorporadas no próprio HTML.
+3. Para hospedar no GitHub Pages/UOL, copie TODOS os arquivos do pacote para a mesma pasta, mantendo os nomes.
+4. Se substituir o HTML antigo, atualize a página e descarte o cache do navegador se a imagem antiga continuar aparecendo.
+5. O registro de posts é local neste modo. Faça backup antes de limpar o armazenamento do navegador.
+
+CORREÇÕES
+- Logo de navegação: incorporada via imagem de dados.
+- Símbolo no cabeçalho: incorporado via imagem de dados.
+- Imagem de marca em artes PNG/JPEG: variável inicializada e verificada antes de desenhar.
+- Favicon: incorporado no próprio HTML.
+- Manifesto PWA: carregado apenas quando a página é acessada por servidor HTTP(S).
+
+LIMITAÇÕES
+Ao abrir só o HTML localmente, os Termos de Uso e a Política de Privacidade precisam dos respectivos arquivos externos no mesmo diretório para abrir pelos links; ambos estão neste ZIP. O uso como PWA instalável e a integração de servidor dependem de hospedagem.
